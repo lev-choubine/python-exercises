@@ -17,3 +17,10 @@ def factorial(num):
     print(fact)
 
 factorial(5)
+
+class Chef:
+  def __init__(self, name, lastname):
+    self.name = name
+    self.age = age
+
+Chef 1 = Person("Gordon", "Ramsay")
