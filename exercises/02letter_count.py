@@ -31,3 +31,18 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+
+def letter_count():
+    data = input("enter a word ")
+    letters = {}
+    for i in range(len(data)): 
+        letter_count = 1
+        if  data[i] in letters:
+            letters[data[i]] += letter_count
+        else: 
+            letters[data[i]] = letter_count  
+    print(letters)    
+    return letters   
+
+
+letter_count()

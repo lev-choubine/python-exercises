@@ -13,3 +13,14 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+
+
+def p_times():
+    num = int(input("enter a number "))
+    data = str(input("enter a sentense "))
+    for line in range(num):
+        result = data 
+        print(result)
+
+p_times()
